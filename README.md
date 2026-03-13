@@ -9,7 +9,7 @@ My goal is simple: **solve at least one problem every day** and stay consistent 
 
 If you're also on a **DSA grind**, feel free to explore the solutions, learn along, or share better approaches! 🚀  
 
-<p align="center">
+<p align="left">
 <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="300"/>
 </p>
 
