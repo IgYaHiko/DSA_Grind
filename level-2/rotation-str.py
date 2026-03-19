@@ -6,9 +6,9 @@ def rote_str(sen, target):
     
     temp = sen + sen
     if target in temp:
-        print("Rotated")
+        print("True")
     else:
-        print("Not")
+        print("False")
 
 
 def main():
