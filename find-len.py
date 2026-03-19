@@ -1,4 +1,4 @@
-def find_len(sen):
+def find_len():
     sen = input("Enter Your String: ")
 
     count = 0;
@@ -8,4 +8,4 @@ def find_len(sen):
     return count
 
 
-find_len("Subhro")
+find_len()
