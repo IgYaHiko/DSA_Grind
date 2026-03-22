@@ -1,17 +1,102 @@
-# 🚀 DSA Practice – Python & Java
+# 🕷️ DSA Grind – Python & Java
 
-Welcome to my **Data Structures and Algorithms practice repository**! 👨‍💻  
-This repo documents my journey of strengthening **problem-solving skills** and preparing for **technical interviews** by consistently practicing DSA. I’m solving problems using both **Python 🐍** and **Java ☕** to better understand how different languages implement the same logic and to improve my versatility as a developer.
+> "With great power comes great responsibility… and clean code." 💻
 
-The journey begins with **fundamental programs** like palindrome checking, factorial calculation, and leap year verification, and will gradually expand into more advanced topics such as **arrays, linked lists, stacks, queues, trees, graphs, recursion, and dynamic programming**. 🌱➡️🌳
+Welcome to my **Data Structures & Algorithms Practice Repository** 👨‍💻  
+This is where I document my journey of mastering problem-solving and preparing for **technical interviews**.
 
-My goal is simple: **solve at least one problem every day** and stay consistent in improving my algorithmic thinking and coding discipline. Each solution in this repository represents a small step toward becoming a better engineer. 💡
+---
 
-If you're also on a **DSA grind**, feel free to explore the solutions, learn along, or share better approaches! 🚀  
+## 🚀 What’s this repo about?
 
-<p align="left">
-<img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="300"/>
+- Solving DSA problems **daily**
+- Writing solutions in **Python 🐍** and **Java ☕**
+- Understanding **core logic deeply**, not just memorizing patterns
+- Building **consistency + discipline**
+
+---
+
+## 🧠 Topics Covered
+
+🔹 Basics  
+- Palindrome  
+- Factorial  
+- Leap Year  
+- Number & String problems  
+
+🔹 Intermediate  
+- Arrays  
+- HashMaps / Dictionaries  
+- Two Pointers  
+- Sliding Window  
+
+🔹 Advanced (coming soon 👇)  
+- Linked Lists  
+- Stacks & Queues  
+- Trees 🌳  
+- Graphs 🌐  
+- Dynamic Programming ⚡  
+
+---
+
+## 🎯 Goal
+
+> Solve **at least 1 problem every day**
+
+- Improve **algorithmic thinking**
+- Get comfortable with **LeetCode patterns**
+- Build strong **problem-solving intuition**
+
+---
+
+## ⚡ Why Python + Java?
+
+- Python → fast prototyping & clarity  
+- Java → strong OOP + interview relevance  
+
+👉 Same problem, two perspectives.
+
+---
+
+## 🕸️ Spider-Man Mode Activated
+
+<p align="center">
+  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="250"/>
+  <img src="https://media.giphy.com/media/l0HlNaQ6gWfllcjDO/giphy.gif" width="250"/>
 </p>
 
-**Consistency > Motivation.** 💪  
-Let’s keep solving and keep growing! 📈
+<p align="center">
+  <img src="https://media.giphy.com/media/26BRuo6sLetdllPAQ/giphy.gif" width="250"/>
+  <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="250"/>
+</p>
+
+---
+
+## 📈 Progress Mindset
+
+✔ Small steps daily  
+✔ Learn from mistakes  
+✔ Optimize later  
+
+> **Consistency > Motivation** 💪
+
+---
+
+## 🤝 Contribute / Connect
+
+If you're also grinding DSA:
+- Fork the repo 🍴  
+- Try problems yourself  
+- Suggest better approaches  
+
+Let’s grow together 🚀
+
+---
+
+## 🧩 Final Note
+
+Every solved problem = +1 XP 🆙  
+Every bug fixed = +10 XP ⚡  
+
+Keep coding. Keep improving.  
+**Stay consistent. Stay unstoppable.** 🕷️🔥
