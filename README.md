@@ -3,16 +3,16 @@
 > "With great power comes great responsibility… and clean code." 💻
 
 Welcome to my **Data Structures & Algorithms Practice Repository** 👨‍💻  
-This is where I document my journey of mastering problem-solving and preparing for **technical interviews**.
+This repo tracks my journey of improving **problem-solving skills** and preparing for **technical interviews**.
 
 ---
 
 ## 🚀 What’s this repo about?
 
-- Solving DSA problems **daily**
-- Writing solutions in **Python 🐍** and **Java ☕**
-- Understanding **core logic deeply**, not just memorizing patterns
-- Building **consistency + discipline**
+- Daily DSA problem solving  
+- Solutions in **Python 🐍** & **Java ☕**  
+- Focus on **logic building**, not memorization  
+- Consistency + discipline  
 
 ---
 
@@ -22,7 +22,6 @@ This is where I document my journey of mastering problem-solving and preparing f
 - Palindrome  
 - Factorial  
 - Leap Year  
-- Number & String problems  
 
 🔹 Intermediate  
 - Arrays  
@@ -43,38 +42,14 @@ This is where I document my journey of mastering problem-solving and preparing f
 
 > Solve **at least 1 problem every day**
 
-- Improve **algorithmic thinking**
-- Get comfortable with **LeetCode patterns**
-- Build strong **problem-solving intuition**
-
+✔ Improve problem-solving  
+✔ Crack coding interviews  
+✔ Build strong fundamentals  
 ---
 
-## ⚡ Why Python + Java?
+## ⚡ Mindset
 
-- Python → fast prototyping & clarity  
-- Java → strong OOP + interview relevance  
-
-👉 Same problem, two perspectives.
-
----
-
-## 🕸️ Spider-Man Mode Activated
-
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="250"/>
-  <img src="https://media.giphy.com/media/l0HlNaQ6gWfllcjDO/giphy.gif" width="250"/>
-</p>
-
-<p align="center">
-  <img src="https://media.giphy.com/media/26BRuo6sLetdllPAQ/giphy.gif" width="250"/>
-  <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="250"/>
-</p>
-
----
-
-## 📈 Progress Mindset
-
-✔ Small steps daily  
+✔ Small progress daily  
 ✔ Learn from mistakes  
 ✔ Optimize later  
 
@@ -82,21 +57,25 @@ This is where I document my journey of mastering problem-solving and preparing f
 
 ---
 
-## 🤝 Contribute / Connect
+## 📈 Growth Path
+
+Every solved problem = +1 XP 🆙  
+Every bug fixed = +10 XP ⚡  
+
+---
+
+## 🤝 Let’s Connect
 
 If you're also grinding DSA:
-- Fork the repo 🍴  
-- Try problems yourself  
-- Suggest better approaches  
+- Fork 🍴  
+- Practice  
+- Share better solutions  
 
 Let’s grow together 🚀
 
 ---
 
 ## 🧩 Final Note
-
-Every solved problem = +1 XP 🆙  
-Every bug fixed = +10 XP ⚡  
 
 Keep coding. Keep improving.  
 **Stay consistent. Stay unstoppable.** 🕷️🔥
