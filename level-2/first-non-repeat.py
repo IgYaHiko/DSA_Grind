@@ -4,10 +4,10 @@ def fir_non_rep(sen):
         val = freq.get(ch, 0) + 1
         freq[ch] = val
     
-    for ch in sen:
-        if freq[ch] == 1:
+    for ch in range(len(sen)):
+        if freq[sen[ch]] == 1:
             return ch
     
     return None
 
-print(fir_non_rep("Leetcode"))
+print(fir_non_rep("llo"))
