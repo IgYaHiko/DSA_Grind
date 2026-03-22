@@ -21,6 +21,6 @@ def freq_long(sen):
 
 def main():
     freq_long("Hello")
-    freq_word("Hello")
+    freq_word([1,433,333,1])
 
 main()
