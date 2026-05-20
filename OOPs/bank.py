@@ -3,8 +3,6 @@ class BankAccount:
             self.name = name
             self.balance = balance 
       
-           
-            
     def deposite(self, amount):
           self.balance += amount
           print(f"Account Holder: {self.name} balance is {self.balance}")
