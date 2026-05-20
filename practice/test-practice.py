@@ -1,26 +1,28 @@
 def getInput():
-    n = int(input("How many number you want to keep in the list: \n"));
+    n = int(input("Enter how many number you want to generate: "))
     nums = []
-
     for i in range(n):
-        num = int(input(f"Enter {i+1} element: "))
+        num = int(input(f"Enter {i+1} number: "))
         nums.append(num)
-    print(f"Old List: {nums}")
     return nums
 
-def count_num(n):
-    list = getInput();
-    c = 0
-    for i in list:
-        if i == n:
-           c += 1
-    return  c
-
-num = int(input("Enter a given number: "))
-print(f"given number {num} in the list {count_num(num)}")
-
-   
-
-
-   
+def moveZeros():
+    n = getInput()
+    i = 0
     
+    for j in range(len(n)):
+        if n[j] != 0:
+            n[i],n[j] = n[j], n[i]
+            i +=1
+    return n
+    
+    
+
+
+            
+
+
+print(moveZeros())
+        
+
+
