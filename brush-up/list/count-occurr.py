@@ -13,11 +13,20 @@ def getOccurence(target):
     for i in my_list:
         if i == target:
            count += 1
-        if count == 0:
-            return 'not exists'
     return count
        
-
+def usingDict(target):
+    my_list = get_element()
+    freq = {}
+    for i in my_list:
+        if i in freq:
+            freq[i] += 1
+        else:
+            freq[i] = 1
+    if target in freq:
+        return freq[target]
+    return 'no'
 
            
 print(f"target element occur: {getOccurence(5)}")
+print(f"target element occur: {usingDict(5)}")
