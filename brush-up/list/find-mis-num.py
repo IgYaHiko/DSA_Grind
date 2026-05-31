@@ -9,13 +9,13 @@ def get_element():
 
 def findMissingValue():
     my_list = get_element()
-    N = len(my_list) + 1
+    arr = sorted(my_list)
+    N = len(arr)
     act = 0
-    for i in my_list:
+    for i in arr:
         act += i
     expected_sum = N * (N+1) // 2
-    if expected_sum !=  act:
-        missing = expected_sum - act
-    return missing
+   
+    return expected_sum - act
 
 print(f"missing value is: {findMissingValue()}")
