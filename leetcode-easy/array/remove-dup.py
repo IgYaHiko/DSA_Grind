@@ -54,4 +54,4 @@ def removeDuplicate(n):
            res += 1
         j +=1 
     return res
-print(removeDuplicate([1,1,2]))
+print(removeDuplicate([1,1,2,3,3,4,4]))
