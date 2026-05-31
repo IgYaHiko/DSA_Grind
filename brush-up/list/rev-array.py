@@ -19,5 +19,6 @@ def builtifrev():
         new.append(i)
     return new
 
+
 print(f"new reverse list: {rev_array()}")
 print(f"without builtin: {builtifrev()}")
