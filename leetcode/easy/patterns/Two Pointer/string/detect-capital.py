@@ -7,6 +7,6 @@ def detect_cap(sen):
         return False
 
         
-print(detect_cap("Cap"))
+print(detect_cap("FlaG"))
 
 
