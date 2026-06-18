@@ -15,5 +15,5 @@ def sortColors(nums):
                 two.append(nums[i])
         nums[:] = zero + one + two
         
-print(sortColors([2,0,2,1,1,0]))
-        
+# Time complexity = O(n)
+# Space complexity = O(n)

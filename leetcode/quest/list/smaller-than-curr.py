@@ -13,3 +13,5 @@ def smallerNumbersThanCurrent(nums):
         return res
 
 print(smallerNumbersThanCurrent([8,1,2,2,3]))
+# Time complexity O(n^2)
+# Space Complexity O(n)
