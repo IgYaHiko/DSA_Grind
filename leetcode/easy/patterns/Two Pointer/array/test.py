@@ -1,19 +1,3 @@
-def sortColors(nums):
-        """ 
-        Do not return anything, modify nums in-place instead.
-        """
-        zero = []
-        one = []
-        two = []
-      
-        for i in range(len(nums)):
-            if nums[i] == 0:
-                zero.append(nums[i])
-            elif nums[i] == 1:
-                one.append(nums[i])
-            else:
-                two.append(nums[i])
-        nums[:] = zero + one + two
-        
-print(sortColors([2,0,2,1,1,0]))
-        
+s = {1,2,3,4}
+s.remove(2)
+print(s)
