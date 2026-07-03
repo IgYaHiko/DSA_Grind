@@ -1,5 +1,4 @@
-from typing import Optional
-from linkedlist import ListNode, create_linked_list, create_cycle
+from linkedlist import ListNode, create_linked_list, create_cycle,Optional
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]):
