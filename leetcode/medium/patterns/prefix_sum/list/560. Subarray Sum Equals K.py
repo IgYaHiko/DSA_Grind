@@ -9,6 +9,7 @@ class Solution:
               total += 1
               qs = total - k
               f = freq.get(qs, 0)
+              print("f",f)
               res += f
               freq[total] = freq.get(total,0) + 1
         return res
