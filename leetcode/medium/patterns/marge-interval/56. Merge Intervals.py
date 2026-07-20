@@ -1,6 +1,7 @@
 class Solution:
     def mergeInterval(self, nums: list[list[int]]) -> list[list[int]]:
         res = []
+        nums.sort(key=lambda x:x[0])
         start1 = nums[0][0]
         end1 = nums[0][1]
         for i in range(1,len(nums)):
@@ -18,5 +19,5 @@ class Solution:
         res.append([start1,end1])
         return res
 sol = Solution()
-ans = sol.mergeInterval(nums=[[1,5],[2,5],[6,9]])
+ans = sol.mergeInterval(nums=[[6, 8], [1, 9], [2, 4], [4, 7]])
 print(ans)
