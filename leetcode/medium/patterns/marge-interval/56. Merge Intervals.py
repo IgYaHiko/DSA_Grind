@@ -18,5 +18,5 @@ class Solution:
         res.append([start1,end1])
         return res
 sol = Solution()
-ans = sol.mergeInterval(nums=[[1,3],[2,6],[8,10],[15,18]])
+ans = sol.mergeInterval(nums=[[1,5],[2,5],[6,9]])
 print(ans)
