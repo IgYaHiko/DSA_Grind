@@ -1,15 +1,10 @@
-largest = 0
-second = 0
+freq = {}
+s = "leetcode"
+for i in range(len(s)):
+    freq[s[i]] = freq.get(s[i],0) + 1
 
-nums = [7,5]
-for i in range(len(nums)):
-    if nums[i] > largest:
-        second = largest
-        largest = nums[i]
-        
-    elif largest > nums[i] > second:
-        second = nums[i]
-        if second == 0:
-           second = largest
-    
-print([largest, second])
+print(freq)
+if s[0] in freq:
+    print("yes")
+else:
+    print("no")
