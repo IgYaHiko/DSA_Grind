@@ -1,10 +1,21 @@
-freq = {}
-s = "leetcode"
-for i in range(len(s)):
-    freq[s[i]] = freq.get(s[i],0) + 1
+ballon = {
+            "b": 1,
+            "a": 1,
+            "l": 2,
+            "o": 1,
+            "n": 1
 
-print(freq)
-if s[0] in freq:
-    print("yes")
-else:
-    print("no")
+}
+f = {
+    "b": 2,
+    "a": 2,
+    "l": 6,
+    "o": 2,
+    "n": 10
+}
+
+ans = []
+for ch in f:
+    div = f[ch] / ballon[ch]
+    ans.append(int(div))
+print(min(ans))
