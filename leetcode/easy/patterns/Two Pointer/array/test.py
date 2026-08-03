@@ -1,21 +1,11 @@
-ballon = {
-            "b": 1,
-            "a": 1,
-            "l": 2,
-            "o": 1,
-            "n": 1
-
-}
-f = {
-    "b": 2,
-    "a": 2,
-    "l": 6,
-    "o": 2,
-    "n": 10
-}
-
-ans = []
-for ch in f:
-    div = f[ch] / ballon[ch]
-    ans.append(int(div))
-print(min(ans))
+s = "abccccdd"
+freq = {}
+res = 0
+for i in range(len(s)):
+    freq[s[i]] = freq.get(s[i],0) + 1
+    #if len(s) % 2 == 0:
+    print(freq[s[i]])
+print(res)
+       
+          
+          
