@@ -1,11 +1,10 @@
-n = [1,2,4,5,6,6]
-i = 0
-tar = 9
-i = 0
-j = len(n) - 1
-while i < j:
-    mid = i +  int((j-i)) // 2 
-    print(n[mid])
-    break
-    
-
+class Solution:
+    def evenOdd(self, n:int):
+        for i in range(1,n+1):
+            if i % 2 == 0:
+               print(f"even element: {i}")
+            else:
+               print(f"odd element: {i}")
+sol = Solution()
+ans = sol.evenOdd(10)
+print(ans)
