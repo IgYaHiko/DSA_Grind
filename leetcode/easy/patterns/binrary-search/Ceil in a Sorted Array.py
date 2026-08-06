@@ -15,5 +15,5 @@ class Solution:
         else:
            return res
 sol = Solution()
-ans = sol.findCeli([1, 2, 8, 10, 11, 12, 19], 5)
+ans = sol.findCeli([2, 8, 8, 8, 9,10], 8)
 print(ans)
