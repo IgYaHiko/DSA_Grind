@@ -10,8 +10,8 @@ def largest_ele():
     my_list = get_element()
 
     largest = my_list[0]
-    for i in my_list:
-        if i > largest:
+    for i in range(len(my_list)):
+        if my_list[i] > largest:
             largest = i
     return largest
 
