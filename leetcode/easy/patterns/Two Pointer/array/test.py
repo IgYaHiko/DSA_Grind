@@ -1,6 +1,8 @@
-nums =[1]
-print(len(nums))
-if len(nums) == 1:
-    print(0)
-else:
-    print(nums[1])
+n = [5,7,7,8,8,8,10]
+i = 0
+j = len(n) -1
+res = [-1,-1]
+while i<=j:
+    mid = (i+j)//2
+    print(f"{mid}: {n[mid]}")
+    break

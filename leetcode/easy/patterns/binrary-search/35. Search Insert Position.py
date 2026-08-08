@@ -14,4 +14,4 @@ class Solution:
                
 sol = Solution()
 ans = sol.searchInsert(nums=[1,3,5,6], target=7)
-print(ans)
+print(ans)  
