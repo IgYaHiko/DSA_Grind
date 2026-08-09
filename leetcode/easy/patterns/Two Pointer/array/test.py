@@ -1,6 +1,4 @@
-n = 4
-m = 4
-for i in range(1,n+1):
-    for j in range(i):
-        print("*", end=" ")
-    print()
+prices = [10, 30, 21]
+
+prices.sort(reverse=True)
+print(prices)
