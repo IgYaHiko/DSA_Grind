@@ -1,4 +1,4 @@
-# 🕷️ DSA Grind – Python & Java
+# 🕷️ DSA Grind – Python & Cpp
 
 > "With great power comes great responsibility… and clean code." 💻
 
