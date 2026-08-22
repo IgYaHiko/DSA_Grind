@@ -2,15 +2,25 @@
 #include <unordered_map>
 #include <vector>
 using namespace std;
+vector<int> find_distance(vector<vector<int>>& nums) {
+        vector<int> res;
+        int row = nums.size();
+        for(int i=0; i<row; i++) {
+            int x = nums[i][0];
+            int y = nums[i][1];
 
-int main() {
-    vector<int> nums = {1,3,4,5,5,3,3,43};
-    unordered_map<int,int> freq;
-    for(int i=0; i<nums.size(); i++) {
-        freq[nums[i]]++;
+            int distance = (x*x + y*y);
+            res.push_back(distance);
+        }
+    return res;
+
     }
-    for(auto x: freq) {
-        cout << x.first <<  "->" << x.second << endl;;
+int main() {
+    vector<vector<int>> nums = {{3,3},{5,-1},{-2,4}};
+    vector<int> res =  find_distance(nums);
+    for(int i=0; i<res.size(); i++) {
+        cout << "index: " << i << " element ->" << res[i]<< endl;
     }
     return 0;
+
 }
