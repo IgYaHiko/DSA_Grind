@@ -20,11 +20,11 @@ int main() {
     Solution sol;
     My_linkedList ll;
 
-    ll.insert(10);
-    ll.insert(20);
-    ll.insert(30);
-    ll.insert(40);
-    ll.insert(50);
+    ll.insertAtEnd(10);
+    ll.insertAtEnd(20);
+    ll.insertAtEnd(30);
+    ll.insertAtEnd(40);
+    ll.insertAtEnd(50);
 
     My_linkedList::Node* res = sol.middleLL(ll.head);
 

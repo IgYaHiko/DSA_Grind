@@ -42,14 +42,14 @@ int main() {
     My_linkedList ll2;
 
     // list1;
-    ll1.insert(1);
-    ll1.insert(2);
-    ll1.insert(3);
+    ll1.insertAtEnd(1);
+    ll1.insertAtEnd(2);
+    ll1.insertAtEnd(3);
 
     //list2;
-    ll2.insert(4);
-    ll2.insert(5);
-    ll2.insert(9);
+    ll2.insertAtEnd(4);
+    ll2.insertAtEnd(5);
+    ll2.insertAtEnd(9);
 
     My_linkedList::Node* result = sol.mergeTwoList(ll1.head, ll2.head);
 

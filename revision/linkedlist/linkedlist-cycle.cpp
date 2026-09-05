@@ -22,10 +22,10 @@ public:
 int main() {
     My_linkedList ll;
 
-    ll.insert(3);
-    ll.insert(2);
-    ll.insert(0);
-    ll.insert(-4);
+    ll.insertAtEnd(3);
+    ll.insertAtEnd(2);
+    ll.insertAtEnd(0);
+    ll.insertAtEnd(-4);
 
     My_linkedList::Node* tail = ll.head;
 
