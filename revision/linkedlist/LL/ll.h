@@ -170,6 +170,34 @@ public:
 
     }
 
+    // Delete node by value
+    void deleteByValue(int value) {
+        if(head == nullptr) {
+            cout << "No element list is empty" << endl;
+        }
+
+        Node* curr = head;
+        Node* prev = nullptr;
+        while(curr != nullptr && curr->data != value) {
+            prev = curr;
+            curr = curr->next;
+        }
+
+        if(curr == nullptr) {
+            cout << "Value not found, deletion failed" << endl;
+        }
+
+        if(prev == nullptr) {
+            head = head->next;
+        } else if(curr -> next == nullptr) {
+            prev -> next = nullptr;
+        } else {
+            prev -> next = curr -> next;
+        }
+        delete curr;
+        cout << "Deleted node with value " << value << endl;
+    }
+
     void display() {
         Node* curr = head;
 

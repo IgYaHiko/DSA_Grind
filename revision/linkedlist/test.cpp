@@ -7,7 +7,8 @@ int main() {
     ll.insertAtEnd(10);
     ll.insertAtEnd(20);
     ll.insertAtEnd(30);
-    ll.deleteFromBegining();
+   
+    ll.deleteByValue(20);
 
     ll.display();
     return 0;
