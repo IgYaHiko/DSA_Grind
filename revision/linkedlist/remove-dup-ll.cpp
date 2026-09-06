@@ -18,12 +18,12 @@ public:
 int main() {
     Solution sol;
     My_linkedList ll;
-    ll.insert(1);
-    ll.insert(2);
-    ll.insert(2);
-    ll.insert(2);
-    ll.insert(3);
-    ll.insert(5);
+    ll.insertAtEnd(1);
+    ll.insertAtEnd(2);
+    ll.insertAtEnd(2);
+    ll.insertAtEnd(2);
+    ll.insertAtEnd(3);
+    ll.insertAtEnd(5);
 
     My_linkedList::Node* res = sol.removeDup(ll.head);
 

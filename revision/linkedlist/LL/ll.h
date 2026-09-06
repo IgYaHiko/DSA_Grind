@@ -132,6 +132,44 @@ public:
        
     }
 
+    // delete from begining 
+    void deleteFromBegining() {
+        if(head == nullptr) {
+           cout << "List is empty";
+           return;
+        }
+        Node* curr = head;
+        head = head->next;
+        int deleteNode = curr->data;
+        delete curr;
+    }
+
+    // delete from the end 
+    void deleteFromEnd() {
+        if(head == nullptr) {
+            cout << "list is empty"<< endl;
+            return;
+        }
+
+        if(head -> next == nullptr) {
+            int deleteData = head->data;
+            delete head;
+            head = nullptr;
+            cout << "Deleted " << deleteData << " from the end" << endl;
+            return;
+        }
+        Node* curr = head;
+        while( curr -> next -> next != nullptr) {
+            curr = curr ->next;
+        }
+        int deletedValue = curr->next->data;
+        delete curr->next;
+        curr->next = nullptr;
+
+        cout << "Deleted " << deletedValue << " from the end" << endl;
+
+    }
+
     void display() {
         Node* curr = head;
 
