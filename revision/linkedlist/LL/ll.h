@@ -108,6 +108,36 @@ public:
 
 
     }
+    void searchByIndex(int index) {
+        Node* curr = head;
+        int posi = 1;
+        bool found = false;
+        if(head == nullptr) {
+            cout << "No list";
+            
+        }
+        
+        while(curr != nullptr) {
+            if(index == posi) {
+                cout << "index is: " << index << " Data is: " << curr->data  << endl;
+                found = true;
+                return;
+                
+            }
+            curr = curr->next;
+            posi++;
+        }
+
+        if (!found) {
+        cout << "Invalid index" << endl;
+    }
+    }
+
+
+
+
+
+
     // search an element;
     bool search(int search_val) {
         Node* curr = head;

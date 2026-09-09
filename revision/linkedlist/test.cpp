@@ -7,9 +7,9 @@ int main() {
     ll.insertAtEnd(10);
     ll.insertAtEnd(20);
     ll.insertAtEnd(30);
-   
-    ll.deleteByValue(20);
-
+    ll.insertSpecificPosition(40,2);
+    
     ll.display();
+    
     return 0;
 }
