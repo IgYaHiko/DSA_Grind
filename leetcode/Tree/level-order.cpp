@@ -70,6 +70,7 @@ void display() {
         cout << endl;
     }
 }
+
 };
 
 class Solution {
@@ -148,6 +149,29 @@ public:
         }
     return res;
     }
+
+    //check same tree 
+    bool sameTree(TreeNode* p, TreeNode* q) {
+        if(p == nullptr && q == nullptr) {
+            return true;
+        }
+        if( p == nullptr || q == nullptr) {
+            return false;
+        }
+
+        if(p->val != q->val) {
+            return false;
+        }
+
+        bool r1 = sameTree(p->left, q->left);
+        bool r2 = sameTree(p->right, q->right);
+
+        if(r1 == true && r2 == true) {
+            return true;
+        }
+    return false;
+        
+    }
     
 };
 
@@ -155,9 +179,16 @@ int Tree::idx = -1;
 int main() {
     
     Tree t;
+    Tree r1r, r2r;
     Solution sol;
+    vector<int> r1 = {1, 2, -1, -1, 3, -1, -1};
+    vector<int> r2 = {1, 2, -1, -1, 4, -1, -1};
     vector<int> nums = {3, 9, -1, -1, 20, 15, -1, -1, 7, -1, -1};
     t.root = t.buildTree(nums);
+    Tree::idx = -1;
+    r1r.root = r1r.buildTree(r1);
+    Tree::idx = -1;
+    r2r.root =  r2r.buildTree(r2);
     vector<vector<int>> ans = sol.levelOrder(t.root);
     vector<vector<int>> ans2 = sol.zigzagSearch(t.root);
 
@@ -178,5 +209,9 @@ int main() {
         }
         cout << endl;
     }
+
+    cout << "\n --- check the same tree --- \n";
+    bool res = sol.sameTree(r1r.root, r2r.root);
+    cout << boolalpha << "This tree is: " << res << endl;
     return 0;
 }
